@@ -1,6 +1,6 @@
 # Steve's Cloud Kit
 
-I do a lot of work sessions and demos and I am often asked what all of the tools are that people see in these sessions. Here is a summary of my current cloud kit. There are too many free tools to list and that is probably a good topic for another note with the top 20 free tools.
+I do a lot of work sessions and demos, and I get asked what all of the tools are that people see in these sessions. Here is a summary of my current cloud kit. There are too many free tools to list, and that is probably a good topic for another note with the top 20 free tools, but these are tools I think are worth purchasing.
 
 ## Core Cloud, Infrastructure, and Consulting Tools
 
