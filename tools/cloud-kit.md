@@ -12,7 +12,7 @@ I lead a lot of work sessions and demos, and I get asked what all of the tools a
 | 4  | ChatGPT Plus    |                  | Research, content, and code generation                           | $240/year   | $240/year                  | Often covered by employers or projects                                                   |
 | 5  | O365 Personal   |                  | Interoperate with O365 users                                     | $70/year    | $70/year                   |                                                                                           |
 | 6  | Microsoft Copilot Pro |            | Research, content, and code generation                           | $240/year   | $240/year                  | Often covered by employers or projects                                                   |
-| 7  | LucidChart      |                  | Schematics                                                      | $108/year   | $108/year                  |                                                                                           |
+| 7  | LucidChart      |                  | Schematics                                                      | $108/year   | $108/year                  |  Often covered by employers or projects                                                                                         |
 
 ## Supplemental Tools
 
