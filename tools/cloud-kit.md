@@ -1,6 +1,13 @@
 # Steve's Cloud Kit
 
-I lead a lot of work sessions and demos, and I get asked what the tools are that people see in these sessions. Here is a summary of my current cloud kit. There are too many free tools to list, and that is probably a good topic for another note with the top 20 free tools, but these are tools I purchase. Many of the companies I've worked for pay for some or all of this, but I've generally maintain a kit like this myself because I am generally working on other ventures and open source projects (except at McKinsey where that was forbidden). As a nod to McKinsey, though, they provided all of this and more.
+I lead a lot of work sessions and demos, and I get asked what the tools are that
+people see in these sessions. Here is a summary of my current cloud kit.
+There are too many free tools to list, and that is probably a good topic for
+another note with the top 20 free tools, but these are tools I purchase. 
+Many of the companies I've worked for pay for some or all of this, but I 
+maintain a kit like this myself because I am generally working on other
+ventures and open source projects (except at McKinsey where that was forbidden).
+As a nod to McKinsey though they provided all of this and more.
 
 ## Core Cloud, Infrastructure, and Consulting Tools
 
