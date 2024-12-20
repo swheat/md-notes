@@ -30,14 +30,14 @@ The following tools are specific to areas of research and development and change
 
 ## Additional Software and Subscriptions
 
-| ID | Name             | Plan       | Purpose                                                              | Cost          | Pricing                | Comments                                                                                     |
-|----|------------------|------------|----------------------------------------------------------------------|---------------|------------------------|---------------------------------------------------------------------------------------------|
-| 1  | OsiriX MD        | DICOM Viewer | Professional-grade DICOM workstation for MacOSX, testing medical imaging applications | $419/year     | $419/year or $70/month |                                                                                             |
-| 2  | Shopify          |            | E-commerce, inventory integration, and payment processing pilots      | $328/year     | $328/year or $39/month |                                                                                             |
-| 3  | AWS, Azure, GCP  |            | Deploy long-lived demos or on-demand compute, serverless, and storage | $600/year     | Variable               | Sandbox use covered by A Cloud Guru, but long-lived demos require additional subscriptions |
-| 4  | Atlassian        |            |                                                                      |               |                        |                                                                                             |
+| ID | Name             | Plan                | Purpose                                                                               | Cost      | Pricing                | Comments                                                                                     |
+|----|------------------|---------------------|---------------------------------------------------------------------------------------|-----------|------------------------|---------------------------------------------------------------------------------------------|
+| 1  | OsiriX MD        | DICOM Viewer        | Professional-grade DICOM workstation for MacOSX, testing medical imaging applications | $419/year | $419/year or $70/month |                                                                                             |
+| 2  | Shopify          |                     | E-commerce, inventory integration, and payment processing pilots                      | $328/year | $328/year or $39/month |                                                                                             |
+| 3  | AWS, Azure, GCP  |                     | Deploy long-lived demos or on-demand compute, serverless, and storage                 | $600/year | Variable               | Sandbox use covered by A Cloud Guru, but long-lived demos require additional subscriptions |
+| 4  | Atlassian        | Confluence and Jira | Personal wiki and project management                                                  | $360/year | $30/month              |                                                                                             |
 
 ### Total
-**$1,347/year** or **$112/month**
+**$1,707/year** or **$142/month**
 
 ---
