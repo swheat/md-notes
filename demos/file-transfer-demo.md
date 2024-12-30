@@ -33,4 +33,4 @@ v
     - **Destination**: Azure Storage Account C (US West region)
     - **Time Taken**: 7 minutes 10 seconds
     - **Max Transfer Speeds**: 83,000 Mbs
-    - **Data Egress Charges Cross Region**: ~$50 (estimated still to be verified, not showing up in billing yet)
+    - **Data Egress Charges Cross Region**: $43.02 (verified)
