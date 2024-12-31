@@ -1,0 +1,114 @@
+name: Multi-Environment Deploy
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: # Enables manual trigger for the workflow
+
+jobs:
+  deploy-dev:
+    name: Deploy to DEV
+    runs-on: ubuntu-latest
+    environment: DEV
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install Azure CLI
+        run: |
+          curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+
+      - name: Azure Login
+        run: |
+          az login --service-principal \
+          --username ${{ secrets.ARM_CLIENT_ID }} \
+          --password ${{ secrets.ARM_CLIENT_SECRET }} \
+          --tenant ${{ secrets.ARM_TENANT_ID }}
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v2
+        with:
+          terraform_version: 1.10.3
+
+      - name: Run TFLint (Terraform Linter)
+        run: |
+          curl -s https://raw.githubusercontent.com/terraform-linters/tflint/master/install_linux.sh | bash
+          tflint --init
+          tflint
+
+      - name: Initialize Terraform
+        env:
+          ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
+          ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET }}
+          ARM_SUBSCRIPTION_ID: ${{ secrets.ARM_SUBSCRIPTION_ID }}
+          ARM_TENANT_ID: ${{ secrets.ARM_TENANT_ID }}
+        run: terraform init
+
+      - name: Terraform Plan (DEV)
+        env:
+          ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
+          ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET }}
+          ARM_SUBSCRIPTION_ID: ${{ secrets.ARM_SUBSCRIPTION_ID }}
+          ARM_TENANT_ID: ${{ secrets.ARM_TENANT_ID }}
+        run: terraform plan -out=tfplan
+
+      - name: Terraform Apply (DEV)
+        env:
+          ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
+          ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET }}
+          ARM_SUBSCRIPTION_ID: ${{ secrets.ARM_SUBSCRIPTION_ID }}
+          ARM_TENANT_ID: ${{ secrets.ARM_TENANT_ID }}
+        run: terraform apply -auto-approve tfplan
+
+  deploy-demo:
+    name: Deploy to DEMO
+    runs-on: ubuntu-latest
+    environment: DEMO
+    needs: deploy-dev # Ensures Demo deployment can only be triggered after DEV succeeds
+    if: github.event_name == 'workflow_dispatch' # Only runs if triggered manually
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install Azure CLI
+        run: |
+          curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+
+      - name: Azure Login
+        run: |
+          az login --service-principal \
+          --username ${{ secrets.DEMO_ARM_CLIENT_ID }} \
+          --password ${{ secrets.DEMO_ARM_CLIENT_SECRET }} \
+          --tenant ${{ secrets.DEMO_ARM_TENANT_ID }}
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v2
+        with:
+          terraform_version: 1.10.3
+
+      - name: Initialize Terraform
+        env:
+          ARM_CLIENT_ID: ${{ secrets.DEMO_ARM_CLIENT_ID }}
+          ARM_CLIENT_SECRET: ${{ secrets.DEMO_ARM_CLIENT_SECRET }}
+          ARM_SUBSCRIPTION_ID: ${{ secrets.DEMO_ARM_SUBSCRIPTION_ID }}
+          ARM_TENANT_ID: ${{ secrets.DEMO_ARM_TENANT_ID }}
+        run: terraform init
+
+      - name: Terraform Plan (DEMO)
+        env:
+          ARM_CLIENT_ID: ${{ secrets.DEMO_ARM_CLIENT_ID }}
+          ARM_CLIENT_SECRET: ${{ secrets.DEMO_ARM_CLIENT_SECRET }}
+          ARM_SUBSCRIPTION_ID: ${{ secrets.DEMO_ARM_SUBSCRIPTION_ID }}
+          ARM_TENANT_ID: ${{ secrets.DEMO_ARM_TENANT_ID }}
+        run: terraform plan -out=tfplan
+
+      - name: Terraform Apply (DEMO)
+        env:
+          ARM_CLIENT_ID: ${{ secrets.DEMO_ARM_CLIENT_ID }}
+          ARM_CLIENT_SECRET: ${{ secrets.DEMO_ARM_CLIENT_SECRET }}
+          ARM_SUBSCRIPTION_ID: ${{ secrets.DEMO_ARM_SUBSCRIPTION_ID }}
+          ARM_TENANT_ID: ${{ secrets.DEMO_ARM_TENANT_ID }}
+        run: terraform apply -auto-approve tfplan
