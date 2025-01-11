@@ -2,7 +2,7 @@
 
 ### Test File(s)
 1. 2.5 GB incompressible, pseudo-random file
-2.5 TB incompressible, pseudo-random file
+2. 2.5 TB incompressible, pseudo-random file
 
 ### Text Topology Diagram
 ```
@@ -21,7 +21,7 @@
        |----- (Upload File 1 with azcopy: 2.5 GB, results on Monday) -----|
        |----- (Upload File 2 with azcopy: 2.5 TB, results on Monday) -----|
        v
-[Azure Storage Account A (West US)]
+[Azure Storage Account B (West US)]
 ```
 ### Data Flow Details
 
