@@ -32,7 +32,7 @@
    - **2.5 TB file transfer time**: 6 minutes 4 seconds
    - **Transfer Speeds**: ~150,000 Mbs
 
-2**Download from Azure West US**:
+2. **Download from Azure West US**:
     - **Source**: Azure storage account West US region
     - **Destination**: On-prem data center in Sacramento, CA
     - **2.5 GB file transfer time**: 1 minute
