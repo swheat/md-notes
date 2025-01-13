@@ -19,7 +19,7 @@
 [On-Prem Server in Sacramento, CA]
        |
        |----- (Upload File 1 with azcopy: 2.5 GB, ~1 minutes) ------------|
-       |----- (Upload File 2 with azcopy: 2.5 TB, 6 hours 1 minute) -----|
+       |----- (Upload File 2 with azcopy: 2.5 TB, 6 hours 1 minute) --- --|
        v
 [Azure Storage Account B (West US)]
 ```
