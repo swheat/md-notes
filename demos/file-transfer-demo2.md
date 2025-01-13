@@ -18,8 +18,8 @@
        v
 [On-Prem Server in Sacramento, CA]
        |
-       |----- (Upload File 1 with azcopy: 2.5 GB, results on Monday) -----|
-       |----- (Upload File 2 with azcopy: 2.5 TB, results on Monday) -----|
+       |----- (Upload File 1 with azcopy: 2.5 GB, ~1 minutes) ------------|
+       |----- (Upload File 2 with azcopy: 2.5 TB, 6 hours 1 minute) -----|
        v
 [Azure Storage Account B (West US)]
 ```
@@ -42,7 +42,7 @@
 2. **Upload to Azure West US (Results Monday)**:
    - **Source**: On-prem data center in Sacramento, CA
    - **Destination**: Azure storage account West US region
-   - **2.5 GB file transfer time**: ? minutes
-   - **2.5 TB file transfer time**: ? hours ? minutes
-   - **Transfer Speeds**: ? Mbs
+   - **2.5 GB file transfer time**: ~1 minute
+   - **2.5 TB file transfer time**: 6 hours 1 minute
+   - **Transfer Speeds**: ~10,000 Mbs Mbs
 
