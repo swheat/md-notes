@@ -4,6 +4,8 @@
 1. 2.5 GB incompressible, pseudo-random file
 2. 2.5 TB incompressible, pseudo-random file
 
+For addition details on how these test files were generated see this article on [generating pseudorandom test files](generate-pseudorandom-test-files.md)
+
 ### Text Topology Diagram
 ```
 [[Azure Storage Account A (West US)]
