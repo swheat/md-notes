@@ -83,5 +83,3 @@ azcopy copy "https://..." "./testfile-2-5-GB-2.bin" --log-level=INFO --log-file=
 - **Best Practices**:
     - Always generate SAS tokens with minimal permissions and appropriate expiry times.
     - Use `--log-level=DEBUG` for detailed troubleshooting.
-
-By following these steps, you can securely and efficiently download files from Azure Blob Storage using AzCopy!
