@@ -1,4 +1,5 @@
 Prompt: Would you please complete an OpenEAI integration template for an integration between an ERP system, an LMS system, and a directory server? When a person is created in the ERP system we need that person to appear in the LMS system and the directory server.
+Sure, here is the content converted to nicely formatted markdown:
 
 **OpenEAI Integration Analysis Template**
 
@@ -110,4 +111,3 @@ Approved by project stakeholders on **March 20, 2025**.
 
 ---
 **End of Integration Analysis Template**
-
