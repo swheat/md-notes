@@ -13,6 +13,7 @@
 10. [Student and Employer Perspectives](#student-and-employer-perspectives)
 11. [Examples of U.S. Colleges and Universities Using Blockchain for Credentials](#examples-of-us-colleges-and-universities-using-blockchain-for-credentials)
 12. [References](#references)
+13. [Additional Peer-Reviewed Papers](#additional-peer-reviewed-papers)
 
 ---
 
@@ -116,3 +117,15 @@ From a student perspective, blockchain ensures greater control over academic rec
 3. [W3C Verifiable Credentials](https://www.w3.org/TR/vc-data-model/)
 4. [Hyland Credentials](https://www.hyland.com/en/resources/articles/digital-credentials)
 5. [Parchment Blockchain Credentials](https://www.parchment.com/)
+
+---
+
+## **Additional Peer-Reviewed Papers**
+1. [Blockchain technology in securing academic credentials: Mobile QR block CV](https://pubs.aip.org/aip/acp/article/2968/1/040004/2922341/Blockchain-technology-in-securing-academic)  
+   This paper discusses a hybrid proof-of-authority blockchain for secure curriculum vitae data storage and QR code accessibility.
+
+2. [Academic Credential Verification System Using Blockchain](https://ijisrt.com/assets/upload/files/IJISRT24NOV1597.pdf)  
+   Explores how blockchain systems enhance privacy, transparency, and efficiency in credential verification using smart contracts.
+
+3. [Development of Blockchain-Based Academic Credential Verification System](https://www.scirp.org/pdf/Oalib2024%2011null_1112130.pdf)  
+   Proposes a blockchain system for educational document verification, improving security and user satisfaction.
