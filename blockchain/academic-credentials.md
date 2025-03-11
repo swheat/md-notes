@@ -1,5 +1,22 @@
 **Blockchain and Academic Credentials: A Secure and Transparent Future**
 
+## **Table of Contents**
+1. [Introduction](#introduction)
+2. [Why Blockchain for Academic Credentials?](#why-blockchain-for-academic-credentials)
+3. [How Blockchain and IPFS Work Together](#how-blockchain-and-ipfs-work-together)
+4. [Notable Platforms Utilizing Blockchain for Academic Credentials](#notable-platforms-utilizing-blockchain-for-academic-credentials)
+    - [OpenCerts](#1-opencerts)
+    - [UniverCert](#2-univercert)
+    - [Verifi-Chain](#3-verifi-chain)
+    - [DIAR](#4-diar-decentralized-identity-and-academic-records)
+    - [Cerberus](#5-cerberus)
+5. [The Role of Agentic AI in Accelerating Blockchain Credential Adoption](#the-role-of-agentic-ai-in-accelerating-blockchain-credential-adoption)
+6. [Foundational APIs and Services for Mass Adoption](#foundational-apis-and-services-for-mass-adoption)
+7. [Examples of U.S. Colleges and Universities Using Blockchain for Credentials](#examples-of-us-colleges-and-universities-using-blockchain-for-credentials)
+8. [Commercial Student Information System (SIS) Vendors Supporting Blockchain](#commercial-student-information-system-sis-vendors-supporting-blockchain)
+9. [Standards for Posting Academic Credentials on Blockchain](#standards-for-posting-academic-credentials-on-blockchain)
+10. [References](#references)
+
 ### **Introduction**
 In an era where digital transformation is redefining various sectors, academic credentialing is undergoing a significant shift through blockchain technology. Traditional paper-based certificates and digital records stored on centralized servers face challenges such as forgery, inefficiency, and lack of interoperability. Blockchain, combined with the **InterPlanetary File System (IPFS)**, offers a solution that ensures secure, verifiable, and tamper-proof academic credentials. This article delves into the role of blockchain in academic credentialing, its advantages, and some prominent platforms that have implemented this technology.
 
