@@ -1,4 +1,3 @@
-```markdown
 <p align="center">
   <img src="Desktop.jpg" alt="Desktop Setup">
 </p>
@@ -38,4 +37,4 @@
 - Reliable, budget cable for connecting XLR mics to audio interfaces.
 - Affordable at roughly **$8–$9 USD**.
 - [View on Amazon](https://www.amazon.com/Amazon-Basics-Microphone-Speaker-Conductors/dp/B01JNLUA5G?utm_source=chatgpt.com)
-```
+
