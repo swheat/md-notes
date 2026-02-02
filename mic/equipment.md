@@ -10,6 +10,7 @@
 | **RØDE RØDECaster Pro II (B0B17V8NGX)** | All-in-one audio production console for podcasting, streaming, music, content creation | Combines multiple studio-grade tools into one; ultra-low-noise Revolution preamps; APHEX processing; touchscreen, smart pads, flexible I/O (USB/Bluetooth/Ethernet) | ~$614.09 USD | [Amazon Link](https://www.amazon.com/Rode-Rodecaster-Podcast-Production-Console/dp/B0B17V8NGX) |
 | **RØDE PSA-1 Boom Arm (B001D7UYBO)** | Broadcast-style swivel mount boom arm for desk-mounting microphones | Durable, precise positioning; widely recommended by users; keeps mic out of the way while easy to reposition | ~$108 USD | [Amazon Link](https://www.amazon.com/dp/B001D7UYBO) |
 | **Amazon Basics XLR Microphone Cable (10 ft) (B01JNLUA5G)** | Standard XLR male-to-female cable for connecting microphones to audio interfaces or mixers | Affordable, all-copper conductors for clear signal transmission; very popular choice in mic-cable searches | ~$8–$9 USD | [Amazon Link](https://www.amazon.com/dp/B01JNLUA5G) |
+| **Insta360 Link 2 (B0DDTH3HX8)** | PTZ 4K Webcam for PC/Mac with AI tracking and HDR | 1/2" sensor for premium 4K image quality; AI tracking physically pans/tilts to follow movement; Phase Detection Auto Focus; AI noise-canceling mic; gesture and smartphone control; DeskView and Whiteboard modes | ~$199.99 USD | [Amazon Link](https://www.amazon.com/dp/B0DDTH3HX8) |
 
 ---
 
@@ -37,4 +38,14 @@
 - Reliable, budget cable for connecting XLR mics to audio interfaces.
 - Affordable at roughly **$8–$9 USD**.
 - [View on Amazon](https://www.amazon.com/Amazon-Basics-Microphone-Speaker-Conductors/dp/B01JNLUA5G?utm_source=chatgpt.com)
+
+### 5. **Insta360 Link 2**
+- PTZ 4K webcam with 1/2" sensor for premium image quality.
+- AI tracking physically pans and tilts to follow your movements.
+- Phase Detection Auto Focus for instant, crisp focusing.
+- AI noise-canceling microphone for clear audio.
+- Gesture and smartphone remote control.
+- Specialized DeskView and Whiteboard modes for content creation.
+- Priced at **$199.99 USD**.
+- [View on Amazon](https://www.amazon.com/dp/B0DDTH3HX8)
 
